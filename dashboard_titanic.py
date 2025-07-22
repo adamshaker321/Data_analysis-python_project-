@@ -17,7 +17,7 @@ st.sidebar.header('🛳 Titanic data analysis')
 st.sidebar.image('titanic.png')
 st.sidebar.markdown('Made by Eng .[Adam shaker](https://github.com/adamshaker321)')
 column = st.sidebar.selectbox('Filter by', ['Sex', 'Pclass'])
-his = st.sidebar.selectbox('Filter price distribution by', [None, '1st Class', '2nd Class', '3rd Class'])
+his = st.sidebar.selectbox('Filter price distribution by', ['all classes', '1st Class', '2nd Class', '3rd Class'])
 
 # Row 1: Metrics
 a0, a1, a2 = st.columns(3)
